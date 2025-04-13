@@ -9,7 +9,7 @@ const AlertMessage = () => {
     if (showAlert) {
       timeout = setTimeout(() => {
         setShowAlert(false);
-      }, 3000);
+      }, 2000);
     }
 
     return () => {
